@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TapResponderChainInputViewV2"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Responder Chain Input View (with arrows to show above the keyboard)."
 
   # This description is used to generate tags and improve search results.
@@ -105,7 +105,6 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "TapResponderChainInputViewV2/TapResponderChainInputViewV2/Resources/*.{xcassets,xib}"
   spec.ios.resource_bundle      = { 'TapResponderChainInputViewResources' => 'TapResponderChainInputViewV2/TapResponderChainInputViewV2/Resources/*.{xcassets,xib}' }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
